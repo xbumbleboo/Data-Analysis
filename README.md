@@ -1,63 +1,50 @@
-# Data-Analysis
-🛒 E-commerce Sales & Customer Behavior EDA
+# 🛒 E-Commerce Data Analysis
 
-This project explores an e-commerce dataset (~35K orders) to uncover business insights related to sales performance, customer patterns, product profitability, return behavior, and logistics impact.
+## 📄 Description
+This project focuses on performing Exploratory Data Analysis (EDA) on an e-commerce dataset.
+The goal is to uncover sales patterns, customer behavior, and business insights through data visualization and analysis.
 
-## Project Summary
+## ✨ Features
+- Data cleaning and preprocessing
+- Sales trend and revenue analysis
+- Customer segmentation insights
+- Product performance evaluation
+- Interactive and visual exploration of data
 
-Conducted comprehensive EDA on real‑world‑simulated e‑commerce data to support data‑driven business decisions across marketing, pricing, product strategy, and operations.
+## 📂 Project Structure
+```
+├── E-Commerce EDA.ipynb – Main notebook containing all analysis steps
+├── ecommerce_sales_34500.csv – Dataset used in this project
+├── README.md – Project documentation file
+```
 
-## Objectives
-- Analyze sales trends over time
-- Understand customer demographics & spending patterns
-- Evaluate product category performance
-- Identify profitability drivers & loss sources
-- Study return behavior & reasons
-- Explore regional operational performance
-- Review payment method preferences
+## 🧰 Prerequisites
+Before running the notebook, make sure you have the following installed:
+- Python 3.8+
+- Jupyter Notebook or Google Colab
+- Required Python libraries:
+   - pip install pandas, numpy, matplotlib, seaborn
 
-## Key Insights
-| Focus	                   | Insight                                                                                                          |
-| ------------------------ | ---------------------------------------------------------------------------------------------------------------- |
-| **Sales Trends**         | Stable seasonal pattern; revenue consistent across weekdays                                                      |
-| **Customer Behavior**    | Dominated by 18–35 age group; spending balanced across genders                                                   |
-| **Category Performance** | Electronics & Home drive revenue; Grocery high volume but low margin                                             |
-| **Profitability**        | Electronics, Sports profitable; Fashion & Grocery produce most losses                                            |
-| **Returns**              | Overall ~5.5%; Fashion highest (~8%); slower delivery increases return risk                                      |
-| **Logistics**            | Delivery 4–7 days optimal; East region slower                                                                    |
-| **Logistics**            | Credit/Debit card preferred; Wallet adoption low → growth opportunity                                            |
+## ▶️ How to Run
+- Open E-Commerce EDA.ipynb using Google Colab or Jupyter Notebook.
+- Upload the dataset file ecommerce_sales_34500.csv to your notebook environment.
+- Run all cells in order to reproduce the full analysis.
+- Explore the outputs, charts, and insights generated from the data.
 
-## Key Techniques
-- Data cleaning & preprocessing
-- Feature engineering
-- Outlier detection & handling
-- Time‑series sales exploration
-- Category & demographic segmentation
-- Return & profitability analysis
-- Shipping & delivery performance study
+## 📊 Dataset Information
+- The dataset contains detailed information about e-commerce sales transactions, including:
+  - Order ID and date
+  - Product name and category
+  - Price, quantity, and total sales
+  - Customer and region details
+  - Payment method
 
-## Tools & Libraries  
-Python (Pandas, NumPy)  
-Matplotlib, Seaborn  
-Jupyter Notebook
+## 🧠 Insights Expected
+- Top-performing products and categories
+- Monthly and regional sales trends
+- Customer purchasing patterns
+- Key revenue drivers
 
-## Dataset Columns
-- Order info: order_id, order_date, total_amount, profit_margin
-- Customer info: customer_id, age, gender, region
-- Product info: category, price, discount, quantity
-- Logistics: shipping_cost, delivery_time_days
-- Return label: returned
-
- ## Business Recommendations
-- Expand premium & electronics inventory
-- Improve Fashion return flow (size guide, exchange-first)
-- Promote wallet payments (cashback / loyalty)
-- Focus growth on South & North regions
-- Optimize logistics in East; keep delivery within 4–7 days
-- Minimum‑order delivery threshold for Grocery
-
-👤 Author
-
-Quynh Chau Nguyen
-
-Feel free to explore, fork, and contribute! 🚀
+## 👩‍💻 Author
+xbumbleboo
+Created with ❤️ using Google Colab
