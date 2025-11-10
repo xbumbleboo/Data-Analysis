@@ -1,0 +1,52 @@
+# E-Commerce Data Analysis
+
+## Mô tả
+Dự án này tập trung vào thực hiện Phân tích dữ liệu thăm dò (EDA) trên một tập dữ liệu thương mại điện tử
+Mục tiêu là khám phá các mô hình bán hàng, hành vi khách hàng và insight doanh nghiệp thông qua phân tích và trực quan hóa dữ liệu
+
+## Đặc trưng
+- Làm sạch và xử lý dữ liệu
+- Phân tích xu hướng bán hàng và doanh thu
+- Insight phân khúc khách hàng
+- Đánh giá hiệu suất sản phẩm
+- Khám phá dữ liệu tương tác và trực quan
+
+## Cấu trúc dự án
+```
+├── E-Commerce EDA.ipynb – Notebook chính chứa tất cả các bước phân tích 
+├── ecommerce_sales_34500.csv – Dataset được dùng cho project
+├── README (VI).md – Tệp tài liệu dự án tiếng Việt
+├── README (EN).md – Tệp tài liệu dự án tiếng Anh
+```
+
+## Điều kiện tiên quyết
+Trước khi chạy notebook, đảm bảo đã cài đặt những công cụ sau:
+- Python 3.8+
+- Jupyter Notebook hoặc Google Colab
+- Những thư viện bắt buộc:
+   - pandas, numpy, matplotlib, seaborn
+
+## Cách chạy
+- Mở E-Commerce EDA.ipynb bằng Google Colab hoặc Jupyter Notebook.
+- Tải tệp dữ liệu ecommerce_sales_34500.csv lên môi trường notebook.
+- Chạy tất cả cell để tái tạo toàn bộ phân tích.
+- Khám phá các kết quả đầu ra, insight và thông tin được khai thác từ dataset.
+
+## Thông tin dataset
+- Dataset chứa thông tin chi tiết về các giao dịch thương mại điện tử, bao gồm:
+  - OrderID và ngày
+  - Tên sản phẩm và danh mục
+  - Giá, số lượng, tổng doanh thu
+  - Thông tin về khách hàng và khu vực
+  - Phương thức thanh toán
+
+## Insight mong đọi
+- Các sản phẩm và danh mục bán chạy nhất
+- Xu hướng kinh doanh từng tháng và theo khu vực
+- Hành vi mua hàng của khách hàng 
+- Những yếu tố chính giúp tạo ra doanh thu
+
+## Author
+xbumbleboo
+
+Created using Google Colab
